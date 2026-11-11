@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding-left: 80px;
+    background-color: white;
+    color:#5f564d;
+    font-family: 'Young Serif', 'outfit';
+    font-size:large;
+}
+.html{
+    background: #F3E5D7;
+}
+.recipe h3{
+    color: #312E2C;
+    font-family:"Young Serif", serif;
+    font-size:xx-large;
+}
+.recipe p{
+    color: #5f564d;
+}
+.preparation-time{
+    /* color: #FFF7FB; */
+    background: #FFF7FB;
+    padding:20px;
+}
+.preparation-time h3{
+    color: #7A284E;
+}
+.preparation-time ul{
+    color:#312E2C;
+    font-family: 'outfit';
+    padding-left: 20px;
+}
+.Ingredients h3{
+    font-size:x-large;
+    color:#854632
+}
+.Instructions h3{
+    font-size:x-large;
+    color:#854632;
+}
+.Instructions ol li b{
+    color:#312E2C;
+     font-family: 'outfit';}
+.Nutrition h3{
+    font-size:x-large;
+     color:#854632
+}
+.table td{
+    /* width:50% */
+    /* color:#7A284E; */
+    border-bottom: 1px solid;
+    font-family: 'outfit';
+}
+.table{
+     border-collapse: collapse;
+     width: 1200px;
+}
+.ul.ol{
+    padding-left: 22px;
+}
+.preparation li{
+     padding-left: 8px;
+     margin-bottom: 8px;
+}
