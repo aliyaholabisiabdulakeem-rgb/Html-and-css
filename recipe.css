@@ -1,67 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-*{
-    padding-left: 80px;
-    background-color: white;
-    color:#5f564d;
-    font-family: 'Young Serif', 'outfit';
-    font-size:large;
-}
-.html{
-    background: #F3E5D7;
-}
-.recipe h3{
-    color: #312E2C;
-    font-family:"Young Serif", serif;
-    font-size:xx-large;
-}
-.recipe p{
+body {
+    background-color: #F3E5D7;
     color: #5f564d;
+    font-family: 'Outfit', sans-serif;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
 }
-.preparation-time{
-    /* color: #FFF7FB; */
+
+.recipe {
+    background: white;
+    max-width: 700px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.recipe h1, .recipe h3 {
+    font-family: "Young Serif", serif;
+    color: #312E2C;
+}
+
+.recipe h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.recipe p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.recipe h3 {
+    font-size: 1.6rem;
+    margin: 20px 0 15px;
+}
+
+.preparation-time {
     background: #FFF7FB;
-    padding:20px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
 }
-.preparation-time h3{
+
+.preparation-time h3 {
     color: #7A284E;
+    font-size: 1.2rem;
+    margin-top: 0;
 }
-.preparation-time ul{
-    color:#312E2C;
-    font-family: 'outfit';
-    padding-left: 20px;
+
+.Ingredients h3, .Instructions h3, .Nutrition h3 {
+    font-size: 1.6rem;
+    color: #854632;
 }
-.Ingredients h3{
-    font-size:x-large;
-    color:#854632
-}
-.Instructions h3{
-    font-size:x-large;
-    color:#854632;
-}
-.Instructions ol li b{
-    color:#312E2C;
-     font-family: 'outfit';}
-.Nutrition h3{
-    font-size:x-large;
-     color:#854632
-}
-.table td{
-    /* width:50% */
-    /* color:#7A284E; */
-    border-bottom: 1px solid;
-    font-family: 'outfit';
-}
-.table{
-     border-collapse: collapse;
-     width: 1200px;
-}
-.ul.ol{
+
+.recipe ul, .recipe ol {
     padding-left: 22px;
+    line-height: 1.8;
 }
-.preparation li{
-     padding-left: 8px;
-     margin-bottom: 8px;
+
+.recipe li {
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
