@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +12,7 @@ body {
     background-color: #F3E5D7;
     color: #5f564d;
     font-family: 'Outfit', sans-serif;
-    padding: 40px 20px;
+    padding: 40px;
     display: flex;
     justify-content: center;
 }
@@ -36,7 +38,6 @@ body {
 }
 
 .recipe h1 {
-    font-size: 2rem;
     margin-bottom: 15px;
 }
 
@@ -84,6 +85,6 @@ body {
 }
 
 .table td {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #7A284E;
     padding: 10px;
 }
